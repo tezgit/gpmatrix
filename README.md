@@ -248,7 +248,7 @@ matrix test: RGBTEST
 <img src="img/matrix-test.gif">
 <br>
 <br>
-strobe 1 second: 3,50,250,4,0 
+beacon 1 second: 3,50,250,4,0 
 <img src="img/matrix-strobe.gif">
 <br>
 <br>
