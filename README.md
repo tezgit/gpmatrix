@@ -44,11 +44,13 @@ Send commands via serial communication at 115200 baud (comma-separated values, t
 
 
 <hr>
-**Mode 0: OFF** <br>
+
+### Mode 0: OFF <br>
 Turns all LEDs off.<br><br>
 example: 0,0,0,0,0
 <hr>
-**Mode 1: ILLUMINATION** <br>
+
+### Mode 1: ILLUMINATION <br>
 Full matrix illumination with any RGB color.
 
 brightness: 0-100% (global brightness)<br>
@@ -64,7 +66,7 @@ Examples:
 1,70,255,255,0   - Yellow at 70% brightness<br>
 <hr>
 
-**Mode 2: STATE** <br>
+### Mode 2: STATE <br>
 Three-state display using pre-defined icons and progress bar.
 
 brightness: 0-100% (global brightness)
@@ -103,7 +105,7 @@ Examples:<br>
 
 <hr>
 
-**Mode 3: BEACON** <br>
+### Mode 3: BEACON <br>
 Strobing red/blue with adjustable timing.
 
 brightness: 0-100% (global brightness)
@@ -201,6 +203,7 @@ parseCommand(): Handle serial input
 runRGBTest(): Diagnostic color test
 
 <hr>
+
 **Future Customization** <br>
 
 *Adding New Icons*<br>
