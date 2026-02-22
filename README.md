@@ -44,11 +44,11 @@ Send commands via serial communication at 115200 baud (comma-separated values, t
 
 
 <hr>
-**Mode 0: OFF**
+**Mode 0: OFF** <br>
 Turns all LEDs off.<br><br>
 example: 0,0,0,0,0
 <hr>
-**Mode 1: ILLUMINATION**
+**Mode 1: ILLUMINATION** <br>
 Full matrix illumination with any RGB color.
 
 brightness: 0-100% (global brightness)<br>
@@ -171,7 +171,8 @@ Termination: Newline character ('\n')
 Response: OK/ERR messages with debug output
 <br>
 <br>
-**Example serial session:**
+
+**Example serial session:** <br>
 
 RP2040 Matrix Display Ready
 System in STANDBY mode
@@ -184,6 +185,7 @@ OK:STATE_OKAY_C1_P30
 <hr>
 
 **Key Functions** <br>
+
 modeOff(): Turn all LEDs off
 <br>
 modeIllumination(): Full matrix RGB illumination
@@ -219,7 +221,8 @@ Beacon colors (red/blue) in modeBeacon()
 
 <hr>
 
-**Troubleshooting** <br>
+**Troubleshooting**  <br>
+
 *No LEDs lighting up:*
 <br>
 Check data pin connection (GPIO 29)
